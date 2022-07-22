@@ -18,6 +18,4 @@ client.on('ready', () => {
     console.log(`> ${client.user.tag} ready!`)
 })
 
-console.log(token)
-
-// client.login(token)
+client.login(token)
