@@ -1,5 +1,4 @@
 # Episode #1 - Facyn
 
-# Enviroments Variables
-
-.env
+#all enviroments variables
+*.env
