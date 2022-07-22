@@ -1,3 +1,5 @@
+// Episode #1 - Facyn
+
 const { Client, GatewayIntentBits } = require('discord.js');
 const { token } = require('./config/config');
 const client = new Client({
