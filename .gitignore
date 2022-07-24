@@ -1,7 +1,7 @@
 # Episode #1 - Facyn
 
 # node_modules
-/node_modules
+node_modules/
 
 #enviroments variables
 .env
