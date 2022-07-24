@@ -4,4 +4,4 @@
 node_modules/
 
 #enviroments variables
-.env
+*.env
