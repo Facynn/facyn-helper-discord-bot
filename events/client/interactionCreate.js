@@ -1,4 +1,4 @@
-// Episode #3 - Facyn
+// Episode #4 - Facyn
 
 const { color } = require('../../config/config');
 

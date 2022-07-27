@@ -1,4 +1,4 @@
-// Episode #3 - Facyn
+// Episode #4 - Facyn
 
 const { SlashCommandBuilder, EmbedBuilder } = require('discord.js');
 

@@ -1,4 +1,4 @@
-// Episode #3 - Facyn
+// Episode #4 - Facyn
 
 const { REST } = require('@discordjs/rest');
 const { Routes } = require('discord-api-types/v9');
