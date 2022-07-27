@@ -4,17 +4,13 @@ const { SlashCommandBuilder, EmbedBuilder } = require('discord.js');
 
 module.exports = {
     data: new SlashCommandBuilder()
-    .setName('ping')
-    .setDescription('Devuelve información sobre la latencia. (ms)'),
+    .setName('example')
+    .setDescription('Ejemplo'),
     async execute(interaction, client, color) {
-        await interaction.deferReply({
-            fetchReply: true
-        })
-
-        await interaction.editReply({
+        return await interaction.reply({
             embeds: [
                 new EmbedBuilder()
-                .setDescription(`[💓] Latencia: ${client.ws.ping}ms`)
+                .setDescription(`example command`)
                 .setColor(color)
             ]
         })

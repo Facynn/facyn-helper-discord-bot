@@ -1,4 +1,4 @@
-// Episode #2 - Facyn
+// Episode #3 - Facyn
 
 const fs = require('fs');
 const path = require('path');

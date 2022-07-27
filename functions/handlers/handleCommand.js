@@ -1,4 +1,4 @@
-// Episode #2 - Facyn
+// Episode #3 - Facyn
 
 const { REST } = require('@discordjs/rest');
 const { Routes } = require('discord-api-types/v9');
@@ -21,7 +21,7 @@ module.exports = (client) => {
                 const command = require(`../../commands/${commandFolder}/${commandFile}`);
                 commands.set(command.data.name, command);
                 commandsArray.push(command.data.toJSON());
-                console.log(`[✅] ${commandsArray.length} comandos cargados.`)
+                console.log(`[✅] ${command.data.name} cargado.`)
             }
         }
 

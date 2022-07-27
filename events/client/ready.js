@@ -1,4 +1,4 @@
-// Episode #2 - Facyn
+// Episode #3 - Facyn
 
 module.exports = {
     name: 'ready',

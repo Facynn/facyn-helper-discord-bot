@@ -1,4 +1,4 @@
-// Episode #2 - Facyn
+// Episode #3 - Facyn
 
 const { Client, GatewayIntentBits, Collection } = require('discord.js');
 const { token } = require('./config/config');

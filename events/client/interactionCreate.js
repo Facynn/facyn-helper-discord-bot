@@ -1,4 +1,4 @@
-// Episode #2 - Facyn
+// Episode #3 - Facyn
 
 const { color } = require('../../config/config');
 
@@ -15,7 +15,7 @@ module.exports = {
                 await command.execute(interaction, client, color)
             } catch (e) {
                 console.log(e)
-                await interaction.reply({
+                return await interaction.reply({
                     content: 'No se ha podido ejecutar el comando.',
                     ephemeral: true
                 })
